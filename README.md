@@ -31,6 +31,27 @@ There are few things you need before deploying the infrastructure:
 These are two things you can't work without.
 
 
-## Deployment
+## Installation
 
 1- Download the project
+
+```bash
+  git clone https://github.com/ZEYAD1351/Terraform-AWS-infrastructure.git
+```
+
+2- Access the Directory 
+```bash
+  cd Terraform-AWS-infrastructure
+```
+
+3- Open the terminal and run (Don't forget to configure your credentials before advancing):
+```bash
+  terraform init
+```
+
+4- Confirm the changes and then run:
+```bash
+  terraform apply
+```
+
+5- You can access your AWS console.
