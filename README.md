@@ -12,6 +12,8 @@ Terraform-managed AWS infrastructure deploying a **secure web application** with
 
 ## 🌐 Architecture
 
+![Description](Infrastructure.png)
+
 A VPC consists of:
 
 - **2 Public Subnets** → Containing EC2 Instances acting as Nginx Reverse Proxy.
